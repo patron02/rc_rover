@@ -5,6 +5,7 @@ The goal of this project is to design and prototype an RC rover that can move in
 Meeting 1:
 Date: 03/12/23
 Time: 9:15 - 12 PM
+
 Reference Material: https://ecetechprojects.wordpress.com/2011/07/08/arduino-h-bridge-motor-control/
 
 Finalized Proposal: https://1drv.ms/w/s!At5nmv7gLyVwkvE4l1jkQC4PCUBfSg?e=4K8k71
