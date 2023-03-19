@@ -1,4 +1,3 @@
-# rc_rover
 Work in Progress 
 
 The goal of this project is to design and prototype an RC rover that can move in all directions to explore terrain. A rover is used to collect information and samples from a specific terrain. They are used by lots of companies, especially those focused on space or deep-sea exploration. Some specifications that we might need to consider are: size, weight, material, and pressure resistance.
