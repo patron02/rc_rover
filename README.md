@@ -5,7 +5,7 @@ The goal of this project is to design and prototype an RC rover that can move in
 
 **Meeting 1:
 Date: 03/12/23
-Time: 9:15 - 12 PM
+Time: 9:15 - 12 PM**
 
 Reference Material: https://ecetechprojects.wordpress.com/2011/07/08/arduino-h-bridge-motor-control/
 
@@ -24,7 +24,7 @@ Defined and divided up the tasks
 
 **Meeting 2:
 Date: 03/18/23
-Time: 2 - 8 PM
+Time: 2 - 8 PM**
 
 Sam provided a simple schematic with transistors. We then decided to change the circuit to mosfets because VCC is higher than the gate voltages and because the mosfets have built-in reverse-bias diodes to help with overvoltage spikes when the car is braking. After we did that, we realized we still needed an NPN transistor to control the mosfets. The new circuit (pinned on Discord) has 4 mosfets and 2 transistors. We used 10kohm pull-up resistors on the P-channel gates to latch them shut. According to my math (also pinned) this means we'll have ~0.1mA through the transistors. This will affect which resistor we put on the transistors bases. For now it's 2.2k but we might need to increase that a bit to 10k as well for less current on the base.
 
@@ -49,7 +49,7 @@ I_Output = 1.4mA ~ 1.5mA
 
 **Meeting 3:
 Date: 03/19/23
-Time: 5 - 9 PM
+Time: 5 - 9 PM**
 
 Sam designed a chassis and printed it. The code is practically done we just need to do the GPIO assignments once we build the circuit. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
 
