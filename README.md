@@ -56,7 +56,7 @@ Time: 5 - 9 PM
 
 Sam designed a chassis and printed it. The code is practically done we just need to do the GPIO assignments once we build the circuit. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
 
-<img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" width="300" />
+<img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="400" />
 
 # Meeting 4 
 
@@ -65,7 +65,7 @@ Time: 12-12:30 PM
  
 We are waiting for the remaining parts to arrive in the mail. 1/4 motors is completely built and tested. All that is left is building the full circuit on the breadboard and running tests on it. We spoke to Dr.Wolfe and discussed possibly presenting our demo earlier than the proposed presentation date. 
 
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1088686438297641010/20230323_234908.jpg?width=312&height=555" width="300" />
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1088686438297641010/20230323_234908.jpg?width=312&height=555" height="400" />
 <img src="https://media.discordapp.net/attachments/1070823721411018833/1088686791336407120/20230323_233629.jpg?width=312&height=553" height="400" />
 
 
