@@ -66,7 +66,7 @@ Time: 12-12:30 PM
 We are waiting for the remaining parts to arrive in the mail. 1/4 motors is completely built and tested. All that is left is building the full circuit on the breadboard and running tests on it. We spoke to Dr.Wolfe and discussed possibly presenting our demo earlier than the proposed presentation date. 
 
 <img src="https://media.discordapp.net/attachments/1070823721411018833/1088686438297641010/20230323_234908.jpg?width=312&height=555" width="300" />
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1088686791336407120/20230323_233629.jpg?width=312&height=553" width="300" />
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1088686791336407120/20230323_233629.jpg?width=312&height=553" height="400" />
 
 
 
