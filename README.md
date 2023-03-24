@@ -58,7 +58,7 @@ Sam designed a chassis and printed it. The code is practically done we just need
 
 <img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="400" />
 
-# Meeting 4 
+# Meeting 4:
 
 Date: 03/24/23
 Time: 12-12:30 PM
