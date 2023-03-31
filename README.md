@@ -88,7 +88,7 @@ We finished fully building the rover, the only thing remaining was adding all th
 
  We discussed which controller we would use to control the robot. We could connect an Xbox controller with analog thumb sticks using bluetooth or use a numpad with different numbers signalling different speeds. We need to work on the code so we can program the directions using the following table:
  
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1089817415908610108/image.png?width=535&height=555" height="400" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089819112106115112/rn_image_picker_lib_temp_2e97c4f8-33c7-49ef-ae3b-879236283686.jpg?width=312&height=553" height="400" />
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1089817415908610108/image.png?width=535&height=555" height="300" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089819112106115112/rn_image_picker_lib_temp_2e97c4f8-33c7-49ef-ae3b-879236283686.jpg?width=312&height=553" height="300" />
 
 Current version of the schematic:
 
