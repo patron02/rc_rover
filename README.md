@@ -76,11 +76,11 @@ Reference Material: https://github.com/besp9510/dma_pwm
 
 We were choosing between running the motors with a constant DC source and changing the voltage in order to change the speed or using PWM. With DC we could only get down to 4 [V]. With PWM, it went as low as 1.5vRMS and was still turning, and it is much easier to code. We ran some tests on the circuit with a frequency generator to test the PWM and saw some 1 [A] spikes from each motor. We discussed adding a filter or switching the motors so they are staggered so that we don't blow a fuse in our circuit. 
 
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1088969448154738718/20230324_175527.jpg?width=987&height=555" height="400" />
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1088969448154738718/20230324_175527.jpg?width=987&height=555" width="400" />
 
 An example of what we could do to stagger the motors:
 
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1089057688039727115/PWM20Stagger.png?width=706&height=405" height="400" />
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1089057688039727115/PWM20Stagger.png?width=706&height=405" width="400" />
 
 We finished fully building the rover, the only thing remaining was adding all the connectors and the circuit.
 
@@ -102,7 +102,7 @@ Time: 2:30 - 5 PM
 
 Reference Material: https://learn.adafruit.com/improve-brushed-dc-motor-performance/pwm-and-brushed-dc-motors
 
-The rover circuit was fully built on a separate breadboard for testing. We will eventually build the circuit on the breadboard that is already attached to the rover. The flyback diode in the circuit and the mosfets fixed the spikes that appeared when using PWM. Most of the code was written and added to the github repository. 
+The rover circuit was built on a separate breadboard for testing and we got 1 wheel working. We will eventually build the circuit on the breadboard that is already attached to the rover. The flyback diode in the circuit and the mosfets fixed the spikes that appeared when using PWM. Most of the code was written and added to the github repository. 
 
 <img src="https://user-images.githubusercontent.com/69320369/229192614-bd41dcf6-abbb-4d40-9a7c-6549bf6996ab.png" height="300" />
 
