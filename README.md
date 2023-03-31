@@ -92,7 +92,7 @@ We finished fully building the rover, the only thing remaining was adding all th
 
 Current version of the schematic:
 
-<img src="https://user-images.githubusercontent.com/69320369/229191431-44b014b4-56c6-40b3-8c9d-de0a184eca29.png" height="400" /> <img src="https://user-images.githubusercontent.com/69320369/229191877-9a6d93dd-2410-4f10-ad3c-a063bb9ff0b6.png" height="400" />
+<img src="https://user-images.githubusercontent.com/69320369/229191431-44b014b4-56c6-40b3-8c9d-de0a184eca29.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/229191877-9a6d93dd-2410-4f10-ad3c-a063bb9ff0b6.png" height="300" />
 
 
 # Meeting 6:
