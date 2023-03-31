@@ -72,6 +72,8 @@ We are waiting for the remaining parts to arrive in the mail. 1/4 motors is comp
 Date: 03/25/23
 Time: 6-9 PM
 
+Reference Material: https://github.com/besp9510/dma_pwm
+
 We were choosing between running the motors with a constant DC source and changing the voltage in order to change the speed or using PWM. With DC we could only get down to 4 [V]. With PWM, it went as low as 1.5vRMS and was still turning, and it is much easier to code. We ran some tests on the circuit with a frequency generator to test the PWM and saw some 1 [A] spikes from each motor. We discussed adding a filter or switching the motors so they are staggered so that we don't blow a fuse in our circuit. 
 
 <img src="https://media.discordapp.net/attachments/1070823721411018833/1088969448154738718/20230324_175527.jpg?width=987&height=555" height="400" />
@@ -87,6 +89,17 @@ We finished fully building the rover, the only thing remaining was adding all th
  We discussed which controller we would use to control the robot. We could connect an Xbox controller with analog thumb sticks using bluetooth or use a numpad with different numbers signalling different speeds. We need to work on the code so we can program the directions using the following table:
  
 <img src="https://media.discordapp.net/attachments/1070823721411018833/1089817415908610108/image.png?width=535&height=555" height="400" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089819112106115112/rn_image_picker_lib_temp_2e97c4f8-33c7-49ef-ae3b-879236283686.jpg?width=312&height=553" height="400" />
+
+Current version of the schematic:
+
+<img src="https://user-images.githubusercontent.com/69320369/229191431-44b014b4-56c6-40b3-8c9d-de0a184eca29.png" height="400" /> <img src="https://user-images.githubusercontent.com/69320369/229191877-9a6d93dd-2410-4f10-ad3c-a063bb9ff0b6.png" height="400" />
+
+
+# Meeting 6:
+
+Date: 03/30/23
+Time: 2:30 - 5 PM
+
 
 
 
