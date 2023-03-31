@@ -76,11 +76,11 @@ Reference Material: https://github.com/besp9510/dma_pwm
 
 We were choosing between running the motors with a constant DC source and changing the voltage in order to change the speed or using PWM. With DC we could only get down to 4 [V]. With PWM, it went as low as 1.5vRMS and was still turning, and it is much easier to code. We ran some tests on the circuit with a frequency generator to test the PWM and saw some 1 [A] spikes from each motor. We discussed adding a filter or switching the motors so they are staggered so that we don't blow a fuse in our circuit. 
 
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1088969448154738718/20230324_175527.jpg?width=987&height=555" width="400" />
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1088969448154738718/20230324_175527.jpg?width=987&height=555" height="200" />
 
 An example of what we could do to stagger the motors:
 
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1089057688039727115/PWM20Stagger.png?width=706&height=405" width="400" />
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1089057688039727115/PWM20Stagger.png?width=706&height=405" height="200" />
 
 We finished fully building the rover, the only thing remaining was adding all the connectors and the circuit.
 
