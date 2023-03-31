@@ -100,9 +100,12 @@ Current version of the schematic:
 Date: 03/30/23
 Time: 2:30 - 5 PM
 
+Reference Material: https://learn.adafruit.com/improve-brushed-dc-motor-performance/pwm-and-brushed-dc-motors
+
+The rover circuit was fully built on a separate breadboard for testing. We will eventually build the circuit on the breadboard that is already attached to the rover. The flyback diode in the circuit and the mosfets fixed the spikes that appeared when using PWM. Most of the code was written and added to the github repository. 
+
+<img src="https://user-images.githubusercontent.com/69320369/229192614-bd41dcf6-abbb-4d40-9a7c-6549bf6996ab.png" height="300" />
 
 
-
-The flyback diode in the circuit fixed the spikes that appeared when using PWM.
 
 
