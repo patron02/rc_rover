@@ -21,7 +21,7 @@ Went through the schematic and calculated how much current it could handle
 
 Defined and divided up the tasks
 
-<img src="https://user-images.githubusercontent.com/69320369/224601874-c5b4059b-2ab1-4c97-a3c2-f3a50a5f6dbe.png" width="400" />
+<img src="https://user-images.githubusercontent.com/69320369/224601874-c5b4059b-2ab1-4c97-a3c2-f3a50a5f6dbe.png" height="300" />
 
 # Meeting 2:
 
@@ -56,7 +56,7 @@ Time: 5 - 9 PM
 
 Sam designed a chassis and printed it. The code is practically done we just need to do the GPIO assignments once we build the circuit. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
 
-<img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="200" />
+<img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="300" />
 
 # Meeting 4:
 
