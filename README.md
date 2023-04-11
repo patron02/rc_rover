@@ -94,6 +94,7 @@ Time: 2:30 - 5 PM
 Reference Material: https://learn.adafruit.com/improve-brushed-dc-motor-performance/pwm-and-brushed-dc-motors
 
 Finalized Working TinkedCad Circuit: https://www.tinkercad.com/things/bnNonHPksck-fantastic-hillar/editel?sharecode=lQiAWzKQ8pHRZROjkhvst0w-F3ZCxrJRO_LkxZTcMJo
+
 PWM Motor Calculations: https://1drv.ms/x/s!At5nmv7gLyVwkvc0S1sMwEzTU4Yw9A?e=w484rG
 
 The rover circuit was built on a separate breadboard for testing and we got 1 wheel working. We will eventually build the circuit on the breadboard that is already attached to the rover. The flyback diode in the circuit and the mosfets fixed the spikes that appeared when using PWM. Most of the code was written and added to the github repository. 
@@ -107,7 +108,7 @@ Time: 4-6 PM
 
 The circuit was fully built and tested. We had a small setbacks with a regulator breaking but a new one was ordered to replace the broken one. 
 
-<img src="https://user-images.githubusercontent.com/69320369/231039480-752c6867-cba8-47a5-9bc7-2bd0a43fa6b2.jpg" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231039562-1e474c47-5c0b-4fd5-be2c-2a3609dbfe30.jpg" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231039684-21ac4d0c-4525-42d3-a1df-28c67b8f256c.jpg" height="300" />
+<img src="https://user-images.githubusercontent.com/69320369/231039480-752c6867-cba8-47a5-9bc7-2bd0a43fa6b2.jpg" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/231039562-1e474c47-5c0b-4fd5-be2c-2a3609dbfe30.jpg" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/231039684-21ac4d0c-4525-42d3-a1df-28c67b8f256c.jpg" height="250" />
 
 
 
