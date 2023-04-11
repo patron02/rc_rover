@@ -108,9 +108,15 @@ The rover circuit was built on a separate breadboard for testing and we got 1 wh
 Date: 04/08/23
 Time: 4-6 PM
 
-The circuit was fully built and tested. We had a small setbacks with a regulator breaking but a new one was ordered to replace the broken one. 
+The circuit was fully built and tested. We had a small setbacks with a regulator breaking but a new one was ordered to replace the broken one. Currently the rover is being controlled by a keypad but we are working on converting that to a joystick so that it is easier to work with. 
 
 <img src="https://user-images.githubusercontent.com/69320369/231039480-752c6867-cba8-47a5-9bc7-2bd0a43fa6b2.jpg" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/231039562-1e474c47-5c0b-4fd5-be2c-2a3609dbfe30.jpg" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/231039684-21ac4d0c-4525-42d3-a1df-28c67b8f256c.jpg" height="250" />
+
+The joystick conversion can be done by converting the rectangular coordinates from the joystick to polar, then adding 315 to the angle. Then we can use the function dif['angle'] %= 360 to convert to 0~360 degrees. Then take cos() and sin() to get speed for the wheels and multiply each speed by the polar magnitude. That will give us the PWM duty cycle for each wheel. If it's positive, it will be put on pins 13, 9, 25, and 20. If it's negative, then the wheel is going backward, so it will be put on the output pins 26, 11, 16 and 21.
+<img src="https://user-images.githubusercontent.com/69320369/231041050-f257de92-3133-4c84-8cca-9db9b6177f1b.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231041153-f7301ce1-f353-4433-a3d4-9ea80fde29e1.png" height="300" />
+
+
+
 
 
 
