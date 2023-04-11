@@ -45,6 +45,8 @@ Parts List: https://1drv.ms/x/s!At5nmv7gLyVwkvcxxzeMtASVYCzkrQ?e=bIrlzk
 Date: 03/19/23
 Time: 5 - 9 PM
 
+Reference Material: file:///C:/Users/patro/AppData/Local/Temp/Temp1_ECE_Rover_Project.zip/raspberry-pi-3-b-plus-reduced-schematics.pdf
+
 We designed a chassis and printed it. The code is practically done we just need to do the GPIO assignments once we build the circuit. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
 
 <img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231038959-d5fa641d-8114-4bde-9970-b276c4396e6b.jpg" height="300" />
