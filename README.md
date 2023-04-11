@@ -38,16 +38,7 @@ Updated TinkerCad:
 
 <img src="https://user-images.githubusercontent.com/69320369/226380291-c77ee0eb-ffea-4c81-8b9d-a37d5abbd992.png" width="400" />
 
-Parts List:
-VBatt = 5v ~ 12v
-RPullup = 10k
-I_Collector = .5mA ~ 1.2mA
-beta(max hFE) = 50
-I_base = 10nA ~ 24nA
-I_max = 16mA (Max PI Output)
-V_Output = 3.0V ~ 3.3V 
-R_BaseNPN = 2.2k
-I_Output = 1.4mA ~ 1.5mA
+Parts List: https://1drv.ms/x/s!At5nmv7gLyVwkvcxxzeMtASVYCzkrQ?e=bIrlzk
 
 # Meeting 3:
 
@@ -56,7 +47,7 @@ Time: 5 - 9 PM
 
 We designed a chassis and printed it. The code is practically done we just need to do the GPIO assignments once we build the circuit. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
 
-<img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="300" />
+<img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231038959-d5fa641d-8114-4bde-9970-b276c4396e6b.jpg" height="300" />
 
 # Meeting 4:
 
@@ -86,7 +77,7 @@ We finished fully building the rover, the only thing remaining was adding all th
 
 <img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193486155896/20230326_084949.jpg?width=312&height=553" height="300" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193167380491/20230326_084758.jpg?width=312&height=553" height="300" /> 
 
- We discussed which controller we would use to control the robot. We could connect an Xbox controller with analog thumb sticks using bluetooth or use a numpad with different numbers signalling different speeds. We need to work on the code so we can program the directions using the following table:
+We discussed which controller we would use to control the robot. We could connect an Xbox controller with analog thumb sticks using bluetooth or use a numpad with different numbers signalling different speeds. We need to work on the code so we can program the directions using the following table:
  
 <img src="https://media.discordapp.net/attachments/1070823721411018833/1089817415908610108/image.png?width=535&height=555" height="300" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089819112106115112/rn_image_picker_lib_temp_2e97c4f8-33c7-49ef-ae3b-879236283686.jpg?width=312&height=553" height="300" />
 
@@ -103,10 +94,23 @@ Time: 2:30 - 5 PM
 Reference Material: https://learn.adafruit.com/improve-brushed-dc-motor-performance/pwm-and-brushed-dc-motors
 
 Finalized Working TinkedCad Circuit: https://www.tinkercad.com/things/bnNonHPksck-fantastic-hillar/editel?sharecode=lQiAWzKQ8pHRZROjkhvst0w-F3ZCxrJRO_LkxZTcMJo
+PWM Motor Calculations: https://1drv.ms/x/s!At5nmv7gLyVwkvc0S1sMwEzTU4Yw9A?e=w484rG
 
 The rover circuit was built on a separate breadboard for testing and we got 1 wheel working. We will eventually build the circuit on the breadboard that is already attached to the rover. The flyback diode in the circuit and the mosfets fixed the spikes that appeared when using PWM. Most of the code was written and added to the github repository. 
 
 <img src="https://user-images.githubusercontent.com/69320369/229192614-bd41dcf6-abbb-4d40-9a7c-6549bf6996ab.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/230246072-87da07ba-cce4-4893-94e3-b1aad60b3247.png" height="300" />
+
+# Meeting 7: 
+
+Date: 04/08/23
+Time: 4-6 PM
+
+The circuit was fully built and tested. We had a small setbacks with a regulator breaking but a new one was ordered to replace the broken one. 
+
+<img src="https://user-images.githubusercontent.com/69320369/231039480-752c6867-cba8-47a5-9bc7-2bd0a43fa6b2.jpg" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231039562-1e474c47-5c0b-4fd5-be2c-2a3609dbfe30.jpg" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231039684-21ac4d0c-4525-42d3-a1df-28c67b8f256c.jpg" height="300" />
+
+
+
 
 
 
