@@ -45,7 +45,7 @@ Parts List: https://1drv.ms/x/s!At5nmv7gLyVwkvcxxzeMtASVYCzkrQ?e=bIrlzk
 Date: 03/19/23
 Time: 5 - 9 PM
 
-Reference Material: file:///C:/Users/patro/AppData/Local/Temp/Temp1_ECE_Rover_Project.zip/raspberry-pi-3-b-plus-reduced-schematics.pdf
+Reference Material: https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-plus-reduced-schematics.pdf
 
 We designed a chassis and printed it. The code is practically done we just need to do the GPIO assignments once we build the circuit. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
 
@@ -81,9 +81,13 @@ We finished fully building the rover, the only thing remaining was adding all th
 
 We discussed which controller we would use to control the robot. We could connect an Xbox controller with analog thumb sticks using bluetooth or use a numpad with different numbers signalling different speeds. We need to work on the code so we can program the directions using the following table:
  
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1089817415908610108/image.png?width=535&height=555" height="300" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089819112106115112/rn_image_picker_lib_temp_2e97c4f8-33c7-49ef-ae3b-879236283686.jpg?width=312&height=553" height="300" />
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1089817415908610108/image.png?width=535&height=555" height="300" /> 
 
-Current version of the schematic:
+We also finalized a simple schematic for how the switchboard will be wired up suppling VCC to the voltage regulator, RPI regulator and light
+
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1089819112106115112/rn_image_picker_lib_temp_2e97c4f8-33c7-49ef-ae3b-879236283686.jpg?width=312&height=553" height="300" />
+
+Current version of the H-Bridge schematic:
 
 <img src="https://user-images.githubusercontent.com/69320369/229191431-44b014b4-56c6-40b3-8c9d-de0a184eca29.png" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/229191877-9a6d93dd-2410-4f10-ad3c-a063bb9ff0b6.png" height="250" />
 
