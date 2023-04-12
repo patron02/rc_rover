@@ -85,7 +85,7 @@ We discussed which controller we would use to control the robot. We could connec
 
 Current version of the schematic:
 
-<img src="https://user-images.githubusercontent.com/69320369/229191431-44b014b4-56c6-40b3-8c9d-de0a184eca29.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/229191877-9a6d93dd-2410-4f10-ad3c-a063bb9ff0b6.png" height="300" />
+<img src="https://user-images.githubusercontent.com/69320369/229191431-44b014b4-56c6-40b3-8c9d-de0a184eca29.png" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/229191877-9a6d93dd-2410-4f10-ad3c-a063bb9ff0b6.png" height="250" />
 
 
 # Meeting 6:
