@@ -103,6 +103,10 @@ The rover circuit was built on a separate breadboard for testing and we got 1 wh
 
 <img src="https://user-images.githubusercontent.com/69320369/229192614-bd41dcf6-abbb-4d40-9a7c-6549bf6996ab.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/230246072-87da07ba-cce4-4893-94e3-b1aad60b3247.png" height="300" />
 
+Finalized circuit schematic:
+
+<img src="https://user-images.githubusercontent.com/69320369/231345186-a358f26f-9370-4e3c-b76b-9513721ffc63.png" height="300">
+
 # Meeting 7: 
 
 Date: 04/08/23
@@ -118,9 +122,7 @@ The joystick will output a rectangular coordinate which needs to be converted to
 
 <img src="https://user-images.githubusercontent.com/69320369/231041050-f257de92-3133-4c84-8cca-9db9b6177f1b.png" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/231041153-f7301ce1-f353-4433-a3d4-9ea80fde29e1.png" height="250" /> 
 
-Finalized circuit schematic:
 
-<img src="https://user-images.githubusercontent.com/69320369/231345186-a358f26f-9370-4e3c-b76b-9513721ffc63.png" height="300">
 
 
 
