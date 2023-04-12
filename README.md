@@ -116,7 +116,12 @@ The circuit was fully built and tested. We had a small setbacks with a regulator
 
 The joystick will output a rectangular coordinate which needs to be converted to polar coordinates. Polar coordinates are typically used for omniwheels because their direction is controlled through angles which can be more intuitively visualized through polar coordinates. We will then add 315 to the polar angle to get rid of the negative angles for when the rover moves backwards. Then we can use the function dif['angle'] %= 360 to convert to 0~360 degrees. Then take cos() and sin() to get speed for the wheels and multiply each speed by the polar magnitude. That will give us the PWM duty cycle for each wheel. If it's positive, it will be put on pins 13, 9, 25, and 20. If it's negative (the wheel is going backwards) so it will be put on the output pins 26, 11, 16 and 21.
 
-<img src="https://user-images.githubusercontent.com/69320369/231041050-f257de92-3133-4c84-8cca-9db9b6177f1b.png" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/231041153-f7301ce1-f353-4433-a3d4-9ea80fde29e1.png" height="250" />
+<img src="https://user-images.githubusercontent.com/69320369/231041050-f257de92-3133-4c84-8cca-9db9b6177f1b.png" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/231041153-f7301ce1-f353-4433-a3d4-9ea80fde29e1.png" height="250" /> 
+
+Finalized circuit schematic:
+
+<img src="https://user-images.githubusercontent.com/69320369/231345186-a358f26f-9370-4e3c-b76b-9513721ffc63.png" height="300">
+
 
 
 
