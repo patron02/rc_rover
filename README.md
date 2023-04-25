@@ -1,7 +1,10 @@
 # RC Rover
 
-The goal of this project is to design and prototype an RC rover that can move in all directions to explore terrain. A rover is used to collect information and samples from a specific terrain. They are used by lots of companies, especially those focused on space or deep-sea exploration. Some specifications that we might need to consider are: size, weight, material, and pressure resistance.
+The goal of this project is to create an efficient H-bridge circuit that can be used for motor control in various scenarios. The H-bridge circuit is a crucial component in robotics, and this project aims to demonstrate its functionality by building a rover test platform. The primary objective is to design a circuit that allows the rover to move in different directions, such as forward, backward, left, and right, while maintaining stability and control.
 
+The H-bridge circuit will have multiple applications in robotics and other industries, such as automotive and aerospace. It can be used to control motors in robots, drones, electric vehicles, and many other devices. By creating a robust and efficient H-bridge circuit, this project aims to contribute to the advancement of motor control technology.
+
+The rover test platform will showcase the H-bridge circuit's capabilities in a real-world scenario. The platform will be able to traverse different terrains, navigate obstacles, and perform various maneuvers, demonstrating the circuit's stability and reliability. Overall, this project aims to provide a practical learning experience in motor control and robotics while contributing to the development of efficient motor control technology for various industries.
 
 # Meeting 1:
 
@@ -13,17 +16,13 @@ Reference Material: https://ecetechprojects.wordpress.com/2011/07/08/arduino-h-b
 Finalized Proposal: https://1drv.ms/w/s!At5nmv7gLyVwkvE4l1jkQC4PCUBfSg?e=4K8k71
 
 Discussed the H-Bridge Design and decided which parts would be used
-  - Decided on using PNP transistors
+  - Decided on using PNP and NPN transistors
   - 9V battery
   - DC motors
   
-Went through the schematic and calculated how much current it could handle
-
-Defined and divided up the tasks
-
-<img src="https://user-images.githubusercontent.com/69320369/224601874-c5b4059b-2ab1-4c97-a3c2-f3a50a5f6dbe.png" height="300" />
-
-![image](https://user-images.githubusercontent.com/77856636/234189781-3349c04d-6147-420b-950f-c7e52e6e4538.png)
+Sketched a simple reference circuit and built it for testing. While this circuit works, we found it to be lackluster in performance.
+ 
+<img src="https://user-images.githubusercontent.com/69320369/224601874-c5b4059b-2ab1-4c97-a3c2-f3a50a5f6dbe.png" height="300" /> <img src="https://user-images.githubusercontent.com/77856636/234189781-3349c04d-6147-420b-950f-c7e52e6e4538.png" height="300" />
 
 # Meeting 2:
 
@@ -51,7 +50,7 @@ Reference Material: https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-plu
 
 We designed a simple chassis and printed it. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
 
-![image](https://user-images.githubusercontent.com/77856636/234189938-992c598c-2133-4645-8375-caff0fbf6a8d.png)
+<img src="https://user-images.githubusercontent.com/77856636/234189938-992c598c-2133-4645-8375-caff0fbf6a8d.png" height="300" />
 
 <img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231038959-d5fa641d-8114-4bde-9970-b276c4396e6b.jpg" height="300" />
 
@@ -81,7 +80,7 @@ An example of what we could do to stagger the motors:
 
 We finished fully building the rover, the only thing remaining was adding all the connectors and the circuit.
 
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193486155896/20230326_084949.jpg?width=312&height=553" height="300" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193167380491/20230326_084758.jpg?width=312&height=553" height="300" /> ![image](https://user-images.githubusercontent.com/77856636/234190092-d907f687-08b4-4fab-9e03-6d91f0ebbbd6.png)
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193486155896/20230326_084949.jpg?width=312&height=553" height="300" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193167380491/20230326_084758.jpg?width=312&height=553" height="300" /> <img src="https://user-images.githubusercontent.com/77856636/234190092-d907f687-08b4-4fab-9e03-6d91f0ebbbd6.png" height="300" /> 
 
 We discussed which controller we would use to control the robot. We could connect an Xbox controller with analog thumb sticks using bluetooth or use a numpad with different numbers signalling different speeds. We need to work on the code so we can program the directions using the following table:
  
@@ -130,9 +129,9 @@ The joystick will output a rectangular coordinate which needs to be converted to
 
 <img src="https://user-images.githubusercontent.com/69320369/231041050-f257de92-3133-4c84-8cca-9db9b6177f1b.png" height="250" /> <img src="https://user-images.githubusercontent.com/69320369/231041153-f7301ce1-f353-4433-a3d4-9ea80fde29e1.png" height="250" /> 
 
+# Final Images:
 
-
-
+<img src="https://user-images.githubusercontent.com/77856636/234191453-c93bd1df-ba9f-4b9c-936c-8593f362584e.jpg" height="250" /> <img src="https://user-images.githubusercontent.com/77856636/234191554-d130412e-fa0e-4c0d-926e-94906ea2d6db.jpg" height="250" /> <img src="https://user-images.githubusercontent.com/77856636/234191921-90192d81-09ae-4225-bd04-4b99cedee0e2.jpg" height="250" /> 
 
 
 
