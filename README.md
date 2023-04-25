@@ -23,6 +23,8 @@ Defined and divided up the tasks
 
 <img src="https://user-images.githubusercontent.com/69320369/224601874-c5b4059b-2ab1-4c97-a3c2-f3a50a5f6dbe.png" height="300" />
 
+![image](https://user-images.githubusercontent.com/77856636/234189781-3349c04d-6147-420b-950f-c7e52e6e4538.png)
+
 # Meeting 2:
 
 Date: 03/18/23
@@ -47,7 +49,9 @@ Time: 5 - 9 PM
 
 Reference Material: https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-plus-reduced-schematics.pdf
 
-We designed a chassis and printed it. The code is practically done we just need to do the GPIO assignments once we build the circuit. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
+We designed a simple chassis and printed it. As for the power system we are using a 9.6V 2000 mAh battery with a voltage regulator for the H bridge circuit and a voltage regulator to power the pi with 5V. The remaining parts were also bought. 
+
+![image](https://user-images.githubusercontent.com/77856636/234189938-992c598c-2133-4645-8375-caff0fbf6a8d.png)
 
 <img src="https://user-images.githubusercontent.com/69320369/226381850-392b5e93-d138-4c30-b5b8-187398b2b5b0.png" height="300" /> <img src="https://user-images.githubusercontent.com/69320369/231038959-d5fa641d-8114-4bde-9970-b276c4396e6b.jpg" height="300" />
 
@@ -77,7 +81,7 @@ An example of what we could do to stagger the motors:
 
 We finished fully building the rover, the only thing remaining was adding all the connectors and the circuit.
 
-<img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193486155896/20230326_084949.jpg?width=312&height=553" height="300" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193167380491/20230326_084758.jpg?width=312&height=553" height="300" /> 
+<img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193486155896/20230326_084949.jpg?width=312&height=553" height="300" /> <img src="https://media.discordapp.net/attachments/1070823721411018833/1089547193167380491/20230326_084758.jpg?width=312&height=553" height="300" /> ![image](https://user-images.githubusercontent.com/77856636/234190092-d907f687-08b4-4fab-9e03-6d91f0ebbbd6.png)
 
 We discussed which controller we would use to control the robot. We could connect an Xbox controller with analog thumb sticks using bluetooth or use a numpad with different numbers signalling different speeds. We need to work on the code so we can program the directions using the following table:
  
